@@ -6,7 +6,8 @@
 // @include     https://github.com/*/*/commits
 // @include     https://github.com/*/*/commits/*
 // @include     https://github.com/*/*/pull/*
-// @version     1
+// @version     1.0.0
+// @homepage    https://github.com/knu/userjs-github_inline_patch_view
 // @grant       none
 // ==/UserScript==
 "use strict";
