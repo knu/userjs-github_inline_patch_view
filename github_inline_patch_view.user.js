@@ -1,5 +1,6 @@
 // ==UserScript==
 // @name        GitHub: inline patch view
+// @namespace   https://akinori.org/
 // @description Clicking on a commit ID shows the patch inline.  Second click opens the link.
 // @license     2-clause BSDL
 // @author      Akinori MUSHA
@@ -8,6 +9,7 @@
 // @include     https://github.com/*/*/pull/*
 // @version     1.0.0
 // @homepage    https://github.com/knu/userjs-github_inline_patch_view
+// @homepage    https://greasyfork.org/scripts/17016-github-inline-patch-view
 // @grant       none
 // ==/UserScript==
 "use strict";
