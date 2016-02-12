@@ -2,6 +2,8 @@
 // @name        GitHub: inline patch view
 // @namespace   https://akinori.org/
 // @description Clicking on a commit ID shows the patch inline.  Second click opens the link.
+// @downloadURL https://greasyfork.org/scripts/17016-github-inline-patch-view/code/GitHub:%20inline%20patch%20view.user.js
+// @updateURL   https://greasyfork.org/scripts/17016-github-inline-patch-view/code/GitHub:%20inline%20patch%20view.meta.js
 // @license     2-clause BSDL
 // @author      Akinori MUSHA
 // @include     https://github.com/*/*/commits
