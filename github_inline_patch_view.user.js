@@ -10,7 +10,7 @@
 // @include     https://github.com/*/*/commits/*
 // @include     https://github.com/*/*/compare/*
 // @include     https://github.com/*/*/pull/*
-// @version     1.0.0
+// @version     1.0.1
 // @homepage    https://github.com/knu/userjs-github_inline_patch_view
 // @homepage    https://greasyfork.org/scripts/17016-github-inline-patch-view
 // @grant       none
