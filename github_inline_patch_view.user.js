@@ -82,7 +82,8 @@
         return true;
     };
     let activateInlinePatch = function (commit) {
-        let sha = commit.querySelector("a.sha[href*='/commit/'], a.commit-id[href*='/commit/']");
+        // */commit/*, */commits/*
+        let sha = commit.querySelector("a.sha[href*='/commit'], a.commit-id[href*='/commit']");
         if (!sha) {
             return;
         }
