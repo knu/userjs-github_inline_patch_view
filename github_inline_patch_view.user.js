@@ -72,6 +72,10 @@
                 }
             }
             commit.classList.add("inline-patch");
+            let caret = sha.querySelector('.inline-patch-dropdown');
+            if (caret) {
+                sha.removeChild(caret);
+            }
         };
         xhr.onerror = function () {
             console.log("Failed to load the patch from " + url);
@@ -87,6 +91,10 @@
         if (!sha) {
             return;
         }
+        let caret = document.createElement('span');
+        caret.className = 'inline-patch-dropdown dropdown-caret';
+        caret.style.display = 'inline';
+        sha.appendChild(caret);
         sha.addEventListener("click",
                              function (e) {
                                  if (insertInlinePatch(commit, sha)) {
