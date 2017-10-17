@@ -112,6 +112,6 @@
         }
     };
     Array.prototype.forEach.
-        call(document.querySelectorAll("li.commit, tr.commit"),
+        call(document.querySelectorAll(".commit"),
              activateInlinePatch);
 })();
